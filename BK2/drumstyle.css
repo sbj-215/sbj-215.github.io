@@ -1,0 +1,87 @@
+body {
+    text-align: center;
+    background-color: #e1e4ec;
+    background-image: url('img/transtion.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  h1 {
+    font-size: 6rem;
+    color: #09161a;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #7c56c9;
+  
+  }
+  
+  footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+  }
+  
+  .w {
+    background-image: url("images/tom1.jpg");
+  }
+  
+  .a {
+    background-image: url("images/tom2.jpg");
+  }
+  
+  .s {
+    background-image: url("images/tom3.jpg");
+  }
+  
+  .d {
+    background-image: url("images/ca.jpg");
+  }
+  
+  .j {
+    background-image: url("images/snare.jpg");
+  }
+  
+  .k {
+    background-image: url("images/crash.jpg");
+  }
+  
+  .l {
+    background-image: url("images/kick.jpg");
+  }
+  
+  .set {
+    margin: 3% auto;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.1;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .drum {
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #191718;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+  
+  @media(max-width:1000px){
+    .drum{
+    width: 400px;
+    height: 300px;
+  text-align: center;
+  margin: 10px 10px 10px 323px;
+      display: block;
+    }
+  }
